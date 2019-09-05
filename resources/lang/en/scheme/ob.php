@@ -56,6 +56,9 @@ return [
         'sub_occupation_list' => 'Sub Occupation List',
         'source' =>'Source',
         'form_34' => 'Form 34 Date',
+        'status' => 'Status',
+        'remark' => 'Remarks',
+        'age' => 'Age',
 
 
     ],

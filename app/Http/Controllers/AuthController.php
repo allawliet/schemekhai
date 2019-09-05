@@ -66,7 +66,7 @@ class AuthController extends Controller
 
         session(['loginid' => 'hannis']);
         session(['loginname' => 'hannis']);
-        session(['loginrole' => 'PK']);
+        session(['loginrole' => 'SCO']);
         session(['loginbranchcode' => 'A31']);
 
         $now = new DateTime();
