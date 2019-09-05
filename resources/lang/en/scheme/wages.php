@@ -21,7 +21,7 @@ return [
         'num' =>'No.',
         'month' => 'Month',
         'year' => 'Year',
-        'wages' => 'Wage (RM)',
+        'wages' => 'Wages (RM)',
         'contribution_paid' => 'Contribution Paid (RM)',
         'contribution_payable' => 'Contribution Payable (RM)',
         'contribution' => 'Contribution (RM)',

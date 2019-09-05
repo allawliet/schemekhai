@@ -151,20 +151,33 @@ Route::group(['prefix' => 'Scheme','namespace'=>'Scheme'], function () {
 
 /* --------------------------- NOTICE OD(IO) ------------------------------------ */
     Route::get('/obform_io', 'NoticeOdController@indexIO');
+    Route::get('/revisionels_io', 'Revision\revisionElsController@indexElsIO');
 
 /* ---------------------------END OF NOTICE OD(IO) ------------------------------- */
 
 /* --------------------------- NOTICE OD(SCO) ------------------------------------ */
     Route::get('/obform_sco', 'NoticeOdController@indexSCO');
     Route::get('/revisionassess_sco', 'Revision\RevisionAssessmentController@indexRevisionSCO');
+    Route::get('/revisionels_sco', 'Revision\revisionElsController@indexEls');
 
 /* ---------------------------END OF NOTICE OD(SCO) ------------------------------- */
 
 /* --------------------------- NOTICE OD(SAO) ------------------------------------ */
     Route::get('/obform_sao', 'NoticeOdController@indexSAO');
     Route::get('/revisionassess_sao', 'Revision\RevisionAssessmentController@indexRevisionSAO');
+    Route::get('/revisionels_sao', 'Revision\revisionElsController@indexElsSao');
 
 /* ------------------------ END OF NOTICE OD(SAO) ---------------------------------- */
+
+/* --------------------------- NOTICE OD(REVISION) ------------------------------------ */
+    Route::get('/revisionprovisional_sco', 'Revision\ProvisionalController@index_SCO');
+    Route::get('/revisionprovisional_sao', 'Revision\ProvisionalController@index_SAO');
+    Route::get('/revisionchangedate', 'Revision\ChangeDateODController@index');
+    Route::get('/revisionchangedate_sco', 'Revision\ChangeDateODController@index_SCO');
+    Route::get('/revisionchangedate_io', 'Revision\ChangeDateODController@index_IO');
+    Route::get('/revisionchangedate_sao', 'Revision\ChangeDateODController@index_SAO');
+
+/* ------------------------ END OF NOTICE OD(REVISION) ---------------------------------- */
 
 /* ------------------------------ NOTICE ILAT(PK) -------------------------------- */
     Route::get('/obformilat', 'NoticeInvalidityController@index');
