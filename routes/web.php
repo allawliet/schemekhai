@@ -164,6 +164,16 @@ Route::group(['prefix' => 'Scheme','namespace'=>'Scheme'], function () {
 
 /* ------------------------ END OF NOTICE OD(SAO) ---------------------------------- */
 
+/* --------------------------- NOTICE OD(REVISION) ------------------------------------ */
+    Route::get('/revisionprovisional_sco', 'Revision\ProvisionalController@index_SCO');
+    Route::get('/revisionprovisional_sao', 'Revision\ProvisionalController@index_SAO');
+    Route::get('/revisionchangedate', 'Revision\ChangeDateODController@index');
+    Route::get('/revisionchangedate_sco', 'Revision\ChangeDateODController@index_SCO');
+    Route::get('/revisionchangedate_io', 'Revision\ChangeDateODController@index_IO');
+    Route::get('/revisionchangedate_sao', 'Revision\ChangeDateODController@index_SAO');
+
+/* ------------------------ END OF NOTICE OD(REVISION) ---------------------------------- */
+
 /* ------------------------------ NOTICE ILAT(PK) -------------------------------- */
     Route::get('/obformilat', 'NoticeInvalidityController@index');
     Route::post('/wagesilat', 'NoticeInvalidityController@postWages');
