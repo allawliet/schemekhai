@@ -151,16 +151,19 @@ Route::group(['prefix' => 'Scheme','namespace'=>'Scheme'], function () {
 
 /* --------------------------- NOTICE OD(IO) ------------------------------------ */
     Route::get('/obform_io', 'NoticeOdController@indexIO');
+    Route::get('/revisionels_io', 'Revision\revisionElsController@indexElsIO');
 
 /* ---------------------------END OF NOTICE OD(IO) ------------------------------- */
 
 /* --------------------------- NOTICE OD(SCO) ------------------------------------ */
     Route::get('/obform_sco', 'NoticeOdController@indexSCO');
+    Route::get('/revisionels_sco', 'Revision\revisionElsController@indexEls');
 
 /* ---------------------------END OF NOTICE OD(SCO) ------------------------------- */
 
 /* --------------------------- NOTICE OD(SAO) ------------------------------------ */
     Route::get('/obform_sao', 'NoticeOdController@indexSAO');
+    Route::get('/revisionels_sao', 'Revision\revisionElsController@indexElsSao');
 
 /* ------------------------ END OF NOTICE OD(SAO) ---------------------------------- */
 
