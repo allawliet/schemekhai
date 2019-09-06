@@ -46,7 +46,7 @@
            <!-- Nav tabs -->
             <div class="tab-content tabcontent-border">
             	  <div class="tab-pane p-20 active" id="remarks" role="tabpanel">
-                    @include('scheme.noticeOd.SCO.remarks')
+                    @include('scheme.noticeOd.revision.assessment.SCO.remarks')
                 </div>
                 <div class="tab-pane p-20" id="claim_sco" role="tabpanel">
                     @include('scheme.noticeOd.revision.assessment.SCO.claim_info')

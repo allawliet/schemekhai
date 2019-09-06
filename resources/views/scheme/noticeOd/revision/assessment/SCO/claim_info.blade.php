@@ -6,7 +6,7 @@
                 <form action="/obform" method="POST">
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <div class="form-body">
-                            <h5 class="card-title">Claim</h5>
+                            {{-- <h5 class="card-title">Claim</h5> --}}
                         
                         @if(Session::get('messageob')) 
                         <div class="card-footer">
