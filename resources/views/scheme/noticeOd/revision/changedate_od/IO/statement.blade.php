@@ -42,7 +42,7 @@
             </div>
             <div id="witness" class="collapse" role="tabpanel" aria-labelledby="headingOne3">
                 <div class="card-body">
-                    {{-- @include('scheme.noticeOd.revision.medical_board.IO.insured_person_wages_information') --}}
+                    @include('scheme.noticeOd.revision.changedate_od.IO.witness_info')
                 </div>
             </div>
         </div>

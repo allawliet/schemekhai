@@ -85,7 +85,7 @@
         </div>
         <div id="inconsistent" class="collapse" role="tabpanel" aria-labelledby="headingOne6">
             <div class="card-body">
-                {{-- @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation') --}}
+                @include('scheme.noticeOd.revision.changedate_od.IO.inconsistent_info')
             </div>
         </div>
     </div>

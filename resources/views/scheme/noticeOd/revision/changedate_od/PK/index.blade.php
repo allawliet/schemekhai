@@ -50,7 +50,7 @@
                     @include('scheme.noticeOd.revision.changedate_od.PK.collapse')
                 </div>
                 <div class="tab-pane p-20" id="supporting" role="tabpanel">
-                  {{-- @include('scheme.noticeOd.revision.changedate_od.PK.supporting_document') --}}
+                    @include('scheme.noticeOd.revision.changedate_od.PK.upload_doc')
                 </div>
             </div>
         </div>

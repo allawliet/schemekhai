@@ -7,15 +7,7 @@
                     <div class="form-body">
                         {{-- <h3 class="card-title">@lang('insuredPerson.title')</h3>
                         <hr> --}}
-                        <div class="row p-t-20">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label class="control-label">Name</label>
-                                    <input type="text" id="name" name="name" value="" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row p-t-20">
+                         <div class="row p-t-20">
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label class="control-label">Identification Type</label>
@@ -40,80 +32,69 @@
                         <div class="row p-t-20">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Address</label>
-                                    <input type="text" id="address1" name="address1" value="" class="form-control">
+                                    <label class="control-label">Name</label>
+                                    <input type="text" id="name" name="name" value="" class="form-control">
                                 </div>
                             </div>
+                        </div>
+                        <div class="row p-t-20">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" id="address2" name="address2" value="" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input type="text" id="address3" name="address3" value="" class="form-control">
+                                    <label>Witness Statement</label>
+                                    <textarea type="text" id="statement" name="statement" value="" class="form-control"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="row p-t-20">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label class="control-label">State</label>
+                                    <label>Language</label>
                                     <select class="form-control" tabindex="1">
                                         <option selected readonly disabled hidden>Please Select</option>
-                                        <option value="">Johor</option>
-                                        <option value="Kedah">Kedah</option>
-                                        <option value="Kelantan">Kelantan</option>
-                                        <option value="Melaka">Melaka</option>
-                                        <option value="NegeriSembilan">Negeri Sembilan</option>
-                                        <option value="Pahang">Pahang</option>
-                                        <option value="Penang">Penang</option>
-                                        <option value="Perak">Perak</option>
-                                        <option value="Perlis">Perlis</option>
-                                        <option value="Sabah">Sabah</option>
-                                        <option value="Sarawak">Sarawak</option>
-                                        <option value="Selangor">Selangor</option>
-                                        <option value="Terengganu">Terengganu</option>
-                                        <option value="KualaLumpur">W.P Kuala Lumpur</option>
-                                        <option value="Labuan">W.P Labuan</option>
-                                        <option value="Putrajaya">W.P Putrajaya</option>
+                                        <option value="">Bahasa</option>
+                                        <option value="Kedah">English</option>
+                                        <option value="Kelantan">Tamil</option>
+                                        <option value="Melaka">Mandarin</option>
+                                        <option value="NegeriSembilan">Others</option>
                                     </select>
-                                 </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label>City</label>
-                                    <input type="text" id="city" name="city" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                        </div>
+                        <div class="row p-t-20">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Postcode</label>
-                                    <input type="text" id="postcode" name="postcode" value="" class="form-control">
+                                    <label>Translator Name</label>
+                                    <input type="text" id="translator_name" name="translator_name" value="" class="form-control">
                                 </div>
                             </div>
                         </div>
                         <div class="row p-t-20">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Telephone No.</label>
-                                    <input type="text" id="telNo" name="telNo" value="" class="form-control">
+                                    <label>Investigation Date</label>
+                                    <input type="date" id="date" name="date" value="" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Age</label>
-                                    <input type="text" id="age" name="age" value="" class="form-control">
+                                    <label>Investigation Start Time</label>
+                                    <div class="input-group clockpicker" data-placement="bottom" data-align="top"
+                                        data-autoclose="true">
+                                    <input type="time" class="form-control" id='time' name="time" value="">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>About Investigation</label>
-                                    <input type="text" id="about" name="about" value="" class="form-control">
+                                    <label>Investigation End Time</label>
+                                    <div class="input-group clockpicker" data-placement="bottom" data-align="top"
+                                        data-autoclose="true">
+                                    <input type="time" class="form-control" id='time' name="time" value="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                       <div class="form-actions">
+                        <div class="form-actions">
                             <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('scheme/noticetype.save')</button>
                             <button type="button" class="btn btn waves-effect waves-light btn-success" onclick="submitform()">@lang('scheme/noticetype.reset')</button>
                             <button type="button" class="btn waves-effect waves-light btn-success" id='btncancelacc' onclick="window.location='/noticetype'">@lang('scheme/noticetype.cancel')</button>

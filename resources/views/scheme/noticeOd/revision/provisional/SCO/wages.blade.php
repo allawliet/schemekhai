@@ -34,7 +34,7 @@
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
                                                                     data-placeholder="Month" tabindex="2">
-                                                                    <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                    <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
                                                                     <option value="February">
@@ -83,7 +83,7 @@
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
                                                                     data-placeholder="Month" tabindex="2">
-                                                                    <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                    <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
                                                                     <option value="February">
@@ -132,7 +132,7 @@
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
                                                                     data-placeholder="Month" tabindex="2">
-                                                                    <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                    <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
                                                                     <option value="February">
@@ -181,7 +181,7 @@
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
                                                                     data-placeholder="Month" tabindex="2">
-                                                                    <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                    <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
                                                                     <option value="February">
@@ -230,7 +230,7 @@
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
                                                                     data-placeholder="Month" tabindex="2">
-                                                                    <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                    <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
                                                                     <option value="February">
@@ -279,7 +279,7 @@
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
                                                                     data-placeholder="Month" tabindex="2">
-                                                                    <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                    <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
                                                                     <option value="February">

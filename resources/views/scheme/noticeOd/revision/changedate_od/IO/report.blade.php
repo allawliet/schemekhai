@@ -19,7 +19,7 @@
                                 <div class="form-group">
                                     <label class="control-label">@lang('scheme/investigationInfo.attr.question_1')</label>
                                     <select class="form-control" id="question1" name="question1">
-                                        <option value="" selected>@lang('scheme/investigationInfo.attr.please_select')</option>
+                                        <option selected readonly disabled hidden>Please Select</option>
                                         <option value="Y">@lang('scheme/investigationInfo.attr.yes')</option>
                                         <option value="N">@lang('scheme/investigationInfo.attr.no')</option>
                                     </select>
@@ -33,7 +33,7 @@
                                     <br>
                                     <label class="control-label">@lang('scheme/investigationInfo.attr.question_2')</label>
                                     <select class="form-control" id="question2" name="question2">
-                                        <option value="" selected>@lang('scheme/investigationInfo.attr.please_select')</option>
+                                        <option selected readonly disabled hidden>Please Select</option>
                                         <option value="Y">@lang('scheme/investigationInfo.attr.yes')</option>
                                         <option value="N">@lang('scheme/investigationInfo.attr.no')</option>
                                     </select>
@@ -47,7 +47,7 @@
                                     <br>
                                     <label class="control-label">@lang('scheme/investigationInfo.attr.question_3')</label>
                                     <select class="form-control" id="question3" name="question3">
-                                        <option value="" selected>@lang('scheme/investigationInfo.attr.please_select')</option>
+                                        <option selected readonly disabled hidden>Please Select</option>
                                         <option value="Y">@lang('scheme/investigationInfo.attr.yes')</option>
                                         <option value="N">@lang('scheme/investigationInfo.attr.no')</option>
                                     </select>
@@ -60,7 +60,7 @@
                                 <div class="form-group">
                                     <label class="control-label">@lang('scheme/investigationInfo.attr.question_4')</label>
                                     <select class="form-control" id="question4" name="question4">
-                                        <option value="" selected>@lang('scheme/investigationInfo.attr.please_select')</option>
+                                        <option selected readonly disabled hidden>Please Select</option>
                                         <option value="Y">@lang('scheme/investigationInfo.attr.yes')</option>
                                         <option value="N">@lang('scheme/investigationInfo.attr.no')</option>
                                     </select>
@@ -74,7 +74,7 @@
                                     <br>
                                     <label class="control-label">@lang('scheme/investigationInfo.attr.question_5')</label>
                                     <select class="form-control" id="question5" name="question5">
-                                        <option value="" selected>@lang('scheme/investigationInfo.attr.please_select')</option>
+                                        <option selected readonly disabled hidden>Please Select</option>
                                         <option value="Y">@lang('scheme/investigationInfo.attr.yes')</option>
                                         <option value="N">@lang('scheme/investigationInfo.attr.no')</option>
                                     </select>
@@ -87,7 +87,7 @@
                                 <div class="form-group">
                                     <label class="control-label">IO Recommendation</label>
                                     <select name="recommendation" id="recommendation" class="form-control">
-                                        <option value="" selected>@lang('scheme/investigationInfo.attr.please_select')</option>
+                                        <option selected readonly disabled hidden>Please Select</option>
                                         <option value="">Bencana Kerja</option>
                                         <option value="">Bukan Bencana Kerja</option>
                                     </select>
@@ -96,10 +96,9 @@
                         </div>
 
                         <div class="form-actions">
-                            {{-- <button data-toggle="tab" href="#employer" role="tab" class="btn waves-effect waves-light btn-info" id="btn-nextEmpDetails">@lang('insuredPerson.next')</button> --}}
-                            <button type="submit" class="btn waves-effect waves-light btn-success">
-                            @lang('scheme/ob.save')</button>
-                            {{-- <button type="button" class="btn waves-effect waves-light btn-info">@lang('insuredPerson.previous')</button> --}}
+                            <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('scheme/noticetype.save')</button>
+                            <button type="button" class="btn btn waves-effect waves-light btn-success" onclick="submitform()">@lang('scheme/noticetype.reset')</button>
+                            <button type="button" class="btn waves-effect waves-light btn-success" id='btncancelacc' onclick="window.location='/noticetype'">@lang('scheme/noticetype.cancel')</button>
                         </div>
                     </form>
                 </div>   

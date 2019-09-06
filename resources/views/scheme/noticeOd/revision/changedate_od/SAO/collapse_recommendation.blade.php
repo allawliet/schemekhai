@@ -25,7 +25,22 @@
         </div>
         <div id="iorecommendation" class="collapse" role="tabpanel" aria-labelledby="headingOne7">
             <div class="card-body">
-                @include('scheme.noticeOd.revision.changedate_od.IO.io_recommendation')
+                @include('scheme.noticeOd.revision.changedate_od.IO.recommendation')
+            </div>
+        </div>
+    </div>
+    <!-- approval -->
+    <div class="card m-b-0">
+        <div class="card-header" role="tab" id="headingOne8">
+            <h5 class="mb-0">                           
+                <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#approval" aria-expanded="true" aria-controls="collapseOne1">
+                <h5 class="card-title"><i class="fa fa-plus"></i> Approval</h5>
+                </a>
+            </h5>
+        </div>
+        <div id="approval" class="collapse" role="tabpanel" aria-labelledby="headingOne8">
+            <div class="card-body">
+                @include('scheme.noticeOd.revision.changedate_od.SAO.approval')
             </div>
         </div>
     </div>

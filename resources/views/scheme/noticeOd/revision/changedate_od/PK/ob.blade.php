@@ -36,9 +36,9 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Identification Type</label>
-                                        <select class="form-control">
-                                            <option value="">Please Select</option>
-                                            <option value="" selected>New IC</option>
+                                        <select class="form-control" readonly>
+                                            <option selected readonly disabled hidden>Please Select</option>
+                                            <option value="">New IC</option>
                                             <option value="">Old IC</option>
                                             <option value="">Army ID</option>
                                             <option value="">Police ID</option>
@@ -78,7 +78,7 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Date of OD</label>
-                                        <input type="date" readonly id="dateOD" name="dateOD" value="" class="form-control" >
+                                        <input type="date" id="dateOD" name="dateOD" value="" class="form-control" >
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +97,9 @@
                                 </div>
                             </div>
                             <div class="form-actions">
-                                <button type="submit" class="btn btn-success"> @lang('scheme/caseinfo.save')</button>
+                                <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('scheme/noticetype.save')</button>
+                                <button type="button" class="btn btn waves-effect waves-light btn-success" onclick="submitform()">@lang('scheme/noticetype.reset')</button>
+                                <button type="button" class="btn waves-effect waves-light btn-success" id='btncancelacc' onclick="window.location='/noticetype'">@lang('scheme/noticetype.cancel')</button>
                             </div>
                         </div>
                     </form>

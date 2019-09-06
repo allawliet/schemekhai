@@ -29,14 +29,14 @@
                                 <div class="form-group">
                                     <label class="control-label">Identification Type</label><span
                                         class="required">*</span>
-                                    <select class="form-control">
-                                        <option value="">Please Select</option>
-                                        <option value="" selected>New IC</option>
-                                        <option value="">Old IC</option>
-                                        <option value="">Army ID</option>
-                                        <option value="">Police ID</option>
-                                        <option value="">Social Security Number ID (SSN)</option>
-                                        <option value="">CID</option>
+                                        <select class="form-control">
+                                            <option selected readonly disabled hidden>Please Select</option>
+                                            <option value="" selected>New IC</option>
+                                            <option value="">Old IC</option>
+                                            <option value="">Army ID</option>
+                                            <option value="">Police ID</option>
+                                            <option value="">Social Security Number ID (SSN)</option>
+                                            <option value="">CID</option>
                                   </select>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                                 <div class="form-group">
                                     <label>Source</label><span class="required">*</span>
                                     <select class="form-control">
-                                        <option value="" selected>Please Select</option>
+                                        <option selected readonly disabled hidden>Please Select</option>
                                         <option value="">New Info</option>
                                         <option value="">Complain</option>
                                         <option value="">Others</option>
@@ -84,7 +84,9 @@
                             </div>
                         </div>
                         <div class="form-actions">
-                            <button type="submit" class="btn btn-success"> @lang('scheme/caseinfo.save')</button>
+                            <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('scheme/noticetype.save')</button>
+                            <button type="button" class="btn btn waves-effect waves-light btn-success" onclick="submitform()">@lang('scheme/noticetype.reset')</button>
+                            <button type="button" class="btn waves-effect waves-light btn-success" id='btncancelacc' onclick="window.location='/noticetype'">@lang('scheme/noticetype.cancel')</button>
                         </div>
                     </div>
                 </form>

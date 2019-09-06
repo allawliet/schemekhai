@@ -3,11 +3,12 @@
 @section('content')
 <div class="col-md-12">
         <div class="card-body p-b-0">
-            <h4 class="card-title">@lang('scheme/index.attr.od_notice')</h4>
+            <h5 class="card-title">Revision Change Date of OD</h5>
             
             <ul class="nav customtab" role="tablist" >
                 <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#remarks" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Remarks</span></a> </li>
                 <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#claim" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Claim Details</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#rec" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Recommendation</span></a> </li>
                 <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#supporting" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Supporting Document</span></a> </li>
            </ul>
            <br>
@@ -49,8 +50,11 @@
                 <div class="tab-pane p-20" id="claim" role="tabpanel">
                     @include('scheme.noticeOd.revision.changedate_od.SCO.collapse')
                 </div>
+                <div class="tab-pane p-20" id="rec" role="tabpanel">
+                    @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation')
+                </div>
                 <div class="tab-pane p-20" id="supporting" role="tabpanel">
-                  {{-- @include('scheme.noticeOd.revision.changedate_od.PK.supporting_document') --}}
+                  @include('scheme.noticeOd.revision.changedate_od.PK.upload_doc')
                 </div>
             </div>
         </div>

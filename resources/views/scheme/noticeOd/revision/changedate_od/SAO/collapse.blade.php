@@ -40,7 +40,7 @@
         </div>
         <div id="statement" class="collapse" role="tabpanel" aria-labelledby="headingOne3">
             <div class="card-body">
-                {{-- @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation') --}}
+                @include('scheme.noticeOd.revision.changedate_od.IO.statement')
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
         </div>
         <div id="casefact" class="collapse" role="tabpanel" aria-labelledby="headingOne4">
             <div class="card-body">
-                {{-- @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation') --}}
+                @include('scheme.noticeOd.revision.changedate_od.IO.case_fact')
             </div>
         </div>
     </div>
@@ -63,14 +63,14 @@
     <div class="card m-b-0">
         <div class="card-header" role="tab" id="headingOne5">
             <h5 class="mb-0">                           
-                <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#casefact" aria-expanded="true" aria-controls="collapseOne1">
+                <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#report" aria-expanded="true" aria-controls="collapseOne1">
                 <h5 class="card-title"><i class="fa fa-plus"></i> Investigation Report</h5>
                 </a>
             </h5>
         </div>
-        <div id="casefact" class="collapse" role="tabpanel" aria-labelledby="headingOne5">
+        <div id="report" class="collapse" role="tabpanel" aria-labelledby="headingOne5">
             <div class="card-body">
-                {{-- @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation') --}}
+                @include('scheme.noticeOd.revision.changedate_od.IO.report')
             </div>
         </div>
     </div>
@@ -85,52 +85,7 @@
         </div>
         <div id="inconsistent" class="collapse" role="tabpanel" aria-labelledby="headingOne6">
             <div class="card-body">
-                {{-- @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation') --}}
-            </div>
-        </div>
-    </div>
-    <!-- recommendation -->
-    <div class="card m-b-0">
-        <div class="card-header" role="tab" id="headingOne7">
-            <h5 class="mb-0">                           
-                <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#recommendation" aria-expanded="true" aria-controls="collapseOne1">
-                <h5 class="card-title"><i class="fa fa-plus"></i> Recommendation</h5>
-                </a>
-            </h5>
-        </div>
-        <div id="recommendation" class="collapse" role="tabpanel" aria-labelledby="headingOne7">
-            <div class="card-body">
-                @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation')
-            </div>
-        </div>
-    </div>
-    <!-- io recommendation -->
-    <div class="card m-b-0">
-        <div class="card-header" role="tab" id="headingOne7">
-            <h5 class="mb-0">                           
-                <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#iorecommendation" aria-expanded="true" aria-controls="collapseOne1">
-                <h5 class="card-title"><i class="fa fa-plus"></i> IO Recommendation</h5>
-                </a>
-            </h5>
-        </div>
-        <div id="iorecommendation" class="collapse" role="tabpanel" aria-labelledby="headingOne7">
-            <div class="card-body">
-                {{-- @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation') --}}
-            </div>
-        </div>
-    </div>
-    <!-- approval -->
-    <div class="card m-b-0">
-        <div class="card-header" role="tab" id="headingOne8">
-            <h5 class="mb-0">                           
-                <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#approval" aria-expanded="true" aria-controls="collapseOne1">
-                <h5 class="card-title"><i class="fa fa-plus"></i> Approval</h5>
-                </a>
-            </h5>
-        </div>
-        <div id="approval" class="collapse" role="tabpanel" aria-labelledby="headingOne8">
-            <div class="card-body">
-                {{-- @include('scheme.noticeOd.revision.changedate_od.SCO.recommendation') --}}
+                @include('scheme.noticeOd.revision.changedate_od.IO.inconsistent_info')
             </div>
         </div>
     </div>
