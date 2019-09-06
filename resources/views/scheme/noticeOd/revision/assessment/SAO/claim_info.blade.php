@@ -28,15 +28,15 @@
                         <div id="accordion2" role="tablist" class="accordion" >
                   
                                 <div class="card m-b-0">
-                                    <div class="card-header" role="tab" id="headingGLletter" style="background-color: #FFFFFF;">
+                                    <div class="card-header" role="tab" id="headingCaseSao" style="background-color: #FFFFFF;">
                                         <h5 class="mb-0">                           
-                                            <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+                                            <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#collapseCaseSao" aria-expanded="false" aria-controls="collapseCaseSao">
                                                 <h5 class="card-title" ><i class="fa fa-plus"></i>
                                                 Case Information</h5>
                                             </a>
                                         </h5>
                                     </div>
-                                    <div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1">
+                                    <div id="collapseCaseSao" class="collapse" role="tabpanel" aria-labelledby="headingCaseSao">
                                             <div class="card-body">
                                                     @include('scheme.noticeOd.revision.assessment.SAO.case_info')
                                             </div>
@@ -45,14 +45,14 @@
                                 </div>
     
                                 <div class="card m-b-0">
-                                    <div class="card-header" role="tab" id="headingTwo2" style="background-color: #FFFFFF;">
+                                    <div class="card-header" role="tab" id="headingApplicantSao" style="background-color: #FFFFFF;">
                                         <h5 class="mb-0">
-                                            <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2"><h5 class="card-title"><i class="fa fa-plus"></i>
+                                            <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseApplicantSao" aria-expanded="false" aria-controls="collapseApplicantSao"><h5 class="card-title"><i class="fa fa-plus"></i>
                                                Applicant Information</h5>
                                             </a>
                                         </h5>
                                     </div>
-                                    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2">
+                                    <div id="collapseApplicantSao" class="collapse" role="tabpanel" aria-labelledby="headingApplicantSao">
                                         <div class="card-body">
                                                 @include('scheme.noticeOd.revision.assessment.SAO.applicant_info')
                                         </div>
@@ -60,14 +60,14 @@
                                 </div>
 
                                 <div class="card m-b-0">
-                                        <div class="card-header" role="tab" id="headingThree3" style="background-color: #FFFFFF;" >
+                                        <div class="card-header" role="tab" id="headingCaseSaoTwo" style="background-color: #FFFFFF;" >
                                             <h5 class="mb-0">
-                                                <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3"><h5 class="card-title"><i class="fa fa-plus"></i>
+                                                <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseCaseSaoTwo" aria-expanded="false" aria-controls="collapseCaseSaoTwo"><h5 class="card-title"><i class="fa fa-plus"></i>
                                                  Case Information</h5>
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3">
+                                        <div id="collapseCaseSaoTwo" class="collapse" role="tabpanel" aria-labelledby="headingCaseSaoTwo">
                                             <div class="card-body">
                                                     @include('scheme.noticeOd.revision.assessment.SAO.case_info2')
                                             </div>
@@ -75,14 +75,14 @@
                                     </div>
     
                                 <div class="card m-b-0">
-                                    <div class="card-header" role="tab" id="headingThree3" style="background-color: #FFFFFF;" >
+                                    <div class="card-header" role="tab" id="headingAppealateSao" style="background-color: #FFFFFF;" >
                                         <h5 class="mb-0">
-                                            <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3"><h5 class="card-title"><i class="fa fa-plus"></i>
+                                            <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseAppealateSao" aria-expanded="false" aria-controls="collapseAppealateSao"><h5 class="card-title"><i class="fa fa-plus"></i>
                                               Medical Board Decision-Appealate</h5>
                                             </a>
                                         </h5>
                                     </div>
-                                    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3">
+                                    <div id="collapseAppealateSao" class="collapse" role="tabpanel" aria-labelledby="headingAppealateSao">
                                         <div class="card-body">
                                                 @include('scheme.noticeOd.revision.assessment.SAO.mbd_appealate')
                                         </div>
@@ -90,28 +90,28 @@
                                 </div>
 
                                 <div class="card m-b-0">
-                                        <div class="card-header" role="tab" id="headingFour4" style="background-color: #FFFFFF;" >
+                                        <div class="card-header" role="tab" id="headingMdbSao" style="background-color: #FFFFFF;" >
                                             <h5 class="mb-0">
-                                                <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4"><h5 class="card-title"><i class="fa fa-plus"></i>
+                                                <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseMdbSao" aria-expanded="false" aria-controls="collapseMdbSao"><h5 class="card-title"><i class="fa fa-plus"></i>
                                                   Medical Board Decision</h5>
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseFour4" class="collapse" role="tabpanel" aria-labelledby="headingFour4">
+                                        <div id="collapseMdbSao" class="collapse" role="tabpanel" aria-labelledby="headingMdbSao">
                                             <div class="card-body">
                                                     @include('scheme.noticeOd.revision.assessment.SAO.medical_board')
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card m-b-0">
-                                            <div class="card-header" role="tab" id="headingFive5" style="background-color: #FFFFFF;" >
+                                            <div class="card-header" role="tab" id="headingPreMbdSao" style="background-color: #FFFFFF;" >
                                                 <h5 class="mb-0">
-                                                    <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive5" aria-expanded="false" aria-controls="collapseFive5"><h5 class="card-title"><i class="fa fa-plus"></i>
+                                                    <a class="collapsed link" data-toggle="collapse" data-parent="#accordion2" href="#collapsePreMbdSao" aria-expanded="false" aria-controls="collapsePreMbdSao"><h5 class="card-title"><i class="fa fa-plus"></i>
                                                       Previous Medical Board Decision</h5>
                                                     </a>
                                                 </h5>
                                             </div>
-                                            <div id="collapseFive5" class="collapse" role="tabpanel" aria-labelledby="headingFive5">
+                                            <div id="collapsePreMbdSao" class="collapse" role="tabpanel" aria-labelledby="headingPreMbdSao">
                                                 <div class="card-body">
                                                         @include('scheme.noticeOd.revision.assessment.SAO.pre_medical_board')
                                                 </div>
