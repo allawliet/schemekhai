@@ -6,18 +6,13 @@
             <h4 class="card-title">Revision ELS</h4>
             
             <ul class="nav customtab" role="tablist" >
-            	  <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#case_info" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Case Information</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#applicant" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Applicant Information</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#case_info2" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Case Information</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#medical" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Medical Board Decision</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#appointment" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Appointment</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#statement" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Statement</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#caseFact" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Case Fact</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#supporting" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Supporting Document</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#rec" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Recommendation</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#io_rec" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">IO Recommendation</span></a> </li>
+                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#remarks" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Remarks</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#claim" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Claim Details</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#rec" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Recommendation</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#supporting" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Supporting Document</span></a> </li>
                 <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#approval" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Approval</span></a> </li>
-           </ul>
+            </ul>
+           
            <br>
            <div class="row" id="rowindex">
             <div class="col-md-12">
@@ -48,28 +43,13 @@
             </div>
         </div>
 
-          <!-- Nav tabs -->
+        <!-- Nav tabs -->
         <div class="tab-content tabcontent-border">
-            <div class="tab-pane p-20 active" id="case_info" role="tabpanel">
-                @include('scheme.noticeOd.revision.els.sao.case_info')
+            <div class="tab-pane p-20 active" id="remarks" role="tabpanel">
+                @include('scheme.noticeOd.revision.els.sao.remarks')
             </div>
-            <div class="tab-pane p-20" id="applicant" role="tabpanel">
-                @include('scheme.noticeOd.revision.els.sao.applicant_info')
-            </div>
-            <div class="tab-pane p-20" id="case_info2" role="tabpanel">
-                @include('scheme.noticeOd.revision.els.sao.case_info2')
-            </div>
-            <div class="tab-pane p-20" id="medical" role="tabpanel">
-                @include('scheme.noticeOd.revision.els.sao.medical_board')
-            </div>
-            <div class="tab-pane p-20" id="appointment" role="tabpanel">
-                @include('scheme.noticeOd.revision.els.sao.appointment')
-            </div>
-            <div class="tab-pane p-20" id="statement" role="tabpanel">
-                @include('scheme.noticeOd.revision.els.sao.statement')
-            </div>
-            <div class="tab-pane p-20" id="caseFact" role="tabpanel">
-                @include('scheme.noticeOd.revision.els.sao.caseFact')
+            <div class="tab-pane p-20" id="claim" role="tabpanel">
+                @include('scheme.noticeOd.revision.els.sao.claim')
             </div>
             <div class="tab-pane p-20" id="supporting" role="tabpanel">
                 @include('scheme.noticeOd.revision.els.sao.supporting_document')
@@ -77,13 +57,12 @@
             <div class="tab-pane p-20" id="rec" role="tabpanel">
                 @include('scheme.noticeOd.revision.els.sao.recommendation')
             </div>
-            <div class="tab-pane p-20" id="io_rec" role="tabpanel">
-                @include('scheme.noticeOd.revision.els.sao.io_recommendation')
-            </div>
             <div class="tab-pane p-20" id="approval" role="tabpanel">
                 @include('scheme.noticeOd.revision.els.sao.approval')
             </div>
         </div>
+
+
     </div>
 </div>
 
