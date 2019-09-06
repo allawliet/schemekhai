@@ -145,6 +145,7 @@ Route::group(['prefix' => 'Scheme','namespace'=>'Scheme'], function () {
     Route::post('/odinfo', 'NoticeOdController@postOdinfo');
     Route::post('/odemphistory', 'NoticeOdController@postOdEmphistory');
     Route::get('/odpreview', 'NoticeOdController@Preview');
+    Route::get('/revisionels', 'Revision\revisionElsController@index');
 // Route::get('/branch/{statecode}', 'NoticeOdController@getbranchname');
 
 /* ---------------------------END OF NOTICE OD(PK) ------------------------------- */

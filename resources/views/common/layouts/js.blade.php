@@ -9,7 +9,7 @@
 
 {{-- CALENDER --}}
 <script src="{{asset('js-year-calendar/dist/js-year-calendar.js')}}"></script>
-@include('scheme.noticeOd.IO.calendar');
+@include('scheme.noticeOd.IO.calendar')
 <!-- Bootstrap popper Core JavaScript -->
 <script src="/PERKESO_UI/assets/node_modules/popper/popper.min.js"></script>
 <script src="/PERKESO_UI/assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

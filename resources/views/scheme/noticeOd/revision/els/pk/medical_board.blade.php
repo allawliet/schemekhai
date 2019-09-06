@@ -6,8 +6,7 @@
                 <form action="/caseinfo_revision" method="POST">
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <div class="form-body">
-                    <h5 class="card-title">@lang('insuredPerson.huk')</h5>
-                        <hr>
+
                         @if(Session::get('messageob'))
                         <div class="card-footer">
 
@@ -25,91 +24,142 @@
 
                         </div>
                         @endif
-                        <div class="row p-t-20">
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                   <label class="control-label">@lang('insuredPerson.attr.jdType')</label>
-                                   <select class="form-control" readonly data-placeholder="jdType_els" tabindex="2">
-                                   <option selected disabled hidden>Please Select</option>                                        <option value="JD">@lang('wages.attr.jd')</option>
-                                        <option value="JDR">@lang('wages.attr.jdr')</option>
-                                        <option value="JDK">@lang('wages.attr.JDK')</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label class="control-label">@lang('insuredPerson.attr.jdorjdrsesionDate')</label>
-                                    <input type="text" readonly id="jdorjdrsesionDate_els" name="jdorjdrsesionDate" value="" class="form-control">
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                <label class="control-label">@lang('insuredPerson.attr.asessment')</label>
-                                <input type="text" readonly id="idNum_els" name="asessment" value="" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class='row'>
-                        <div class="col-md-4">
-                                <div class="form-group">
-                                <label class="control-label">@lang('insuredPerson.attr.els')</label>
-                                <input type="text" readonly id="els_els" name="els" value="" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label class="control-label">@lang('insuredPerson.attr.remarks')</label>
-                                    <input type="text" readonly id="remarks_els" name="remarks" value="" class="form-control">
-                                </div>
-                            </div>
-                        </div>
 
-                        <h5 class="card-title">@lang('insuredPerson.invalidity')</h5>
-                        <hr>
-                        <div class="row p-t-20">
-                        <div class="col-md-4">
-                            <label class="control-label">@lang('insuredPerson.attr.jdType')</label>
-                                   <select class="form-control" readonly data-placeholder="jdType_els" tabindex="2">
-                                   <option selected readonly disabled hidden>Please Select</option>                                        <option value="JD">@lang('wages.attr.jd')</option>
-                                        <option value="JDR">@lang('wages.attr.jdr')</option>
-                                        <option value="JDK">@lang('wages.attr.JDK')</option>
-                                    </select>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                   <label class="control-label">@lang('insuredPerson.attr.jdSessionDate')</label>
-                                   <input type="date" readonly id="jdSessionDate_els" name="jdSessionDate" value="" class="form-control">
+                        <div id="accordion22" role="tablist" class="accordion" >
+
+                            <!-- claim case info-->
+                            <div class="card m-b-0">
+                                <div class="card-header" role="tab" id="medical2">
+                                    <h5 class="mb-0">                           
+                                        <a class="link" data-toggle="collapse" data-parent="#accordion22" href="#medicalcol2" aria-expanded="false" aria-controls="medicalcol2"><h5 class="card-title"><i class="fa fa-plus"></i>
+                                        Previous HUK</h5>
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="medicalcol2" class="collapse" role="tabpanel" aria-labelledby="medical2">
+                                    <div class="card-body">
+                                        <div class="row p-t-20">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                <label class="control-label">JD Type</label>
+                                                <select class="form-control" readonly data-placeholder="jdType_els1" tabindex="2">
+                                                <option selected disabled hidden>Please Select</option>  
+                                                        <option value="JD">@lang('wages.attr.jd')</option>
+                                                        <option value="JDR">JDR</option>
+                                                        <option value="JDK">JDK</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label class="control-label">JD / JDR Session Date</label>
+                                                    <input type="date" readonly id="jdorjdrsesionDate_els1_pk" name="jdorjdrsesionDate1_pk" value="" class="form-control">
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row p-t-20">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                <label class="control-label">Assessment Type</label>
+                                                <select class="form-control" readonly data-placeholder="jdType_els1" tabindex="2">
+                                                <option selected disabled hidden>Please Select</option>  
+                                                        <option value="JD">@lang('wages.attr.jd')</option>
+                                                        <option value="JDR">JDR</option>
+                                                        <option value="JDK">JDK</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row p-t-20">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label class="control-label">JD / JDR Result</label>
+                                                    <input type="text" readonly id="jdjdr_result1_pk" name="asessment1_pk" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label class="control-label">Assessment % </label>
+                                                    <input type="text" readonly id="assessment_els1_pk" name="asessment1_pk" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='row'>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                <label class="control-label">ELS</label>
+                                                <input type="text" readonly id="els_els1_pk" name="els_pk" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="form-group">
+                                                    <label class="control-label">@lang('scheme/ob.attr.remark')</label>
+                                                    <input type="text" readonly id="remarks_sao_pk" name="remarks_sao_pk" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                <label class="control-label">@lang('insuredPerson.attr.morbidDate')</label>
-                                <input type="date" readonly id="morbidDate_els" name="morbidDate" value="" class="form-control">
+
+                            <!-- claim case info-->
+                            <div class="card m-b-0">
+                                <div class="card-header" role="tab" id="medical4">
+                                    <h5 class="mb-0">                           
+                                        <a class="link" data-toggle="collapse" data-parent="#accordion22" href="#medicalcol4" aria-expanded="false" aria-controls="medicalcol4"><h5 class="card-title"><i class="fa fa-plus"></i>
+                                        PREVIOUS ILAT</h5>
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="medicalcol4" class="collapse" role="tabpanel" aria-labelledby="medical4">
+                                    <div class="card-body">
+                                        <div class="row p-t-20">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                <label class="control-label">JD Type</label>
+                                                <select class="form-control" readonly data-placeholder="jdType_ilat2" tabindex="2">
+                                                <option selected disabled hidden>Please Select</option>  
+                                                        <option value="JD">@lang('wages.attr.jd')</option>
+                                                        <option value="JDR">JDR</option>
+                                                        <option value="JDK">JDK</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label class="control-label">JD / JDR Session Date</label>
+                                                    <input type="date" readonly id="jdorjdrsesionDate_ilat2_pk" name="jdorjdrsesionDate2_pk" value="" class="form-control">
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label class="control-label">Morbid Date</label>
+                                                    <input type="date" readonly id="jdorjdrsesionDate_ilat2_pk" name="jdorjdrsesionDate_ilat2_pk" value="" class="form-control">
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row p-t-20">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label class="control-label">Invalidity Decision</label>
+                                                    <input type="text" readonly id="jdjdr_result_ilat2_pk" name="asessment_ilat2_pk" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                <label class="control-label">ELS</label>
+                                                <input type="text" readonly id="els_ilat2_pk" name="els_ilat2_pk" value="" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class='row'>
-                        <div class="col-md-4">
-                                <div class="form-group">
-                                    <label class="control-label">@lang('insuredPerson.attr.els')</label>
-                                    <input type="text" readonly id="els_els" name="els" value="" class="form-control">
-                                </div>
-                            </div>
-                        <div class="col-md-4">
-                                <div class="form-group">
-                                <label class="control-label">@lang('insuredPerson.attr.invalidityDecision')</label>
-                                <input type="text" readonly id="invalidityDecision_els" name="invalidityDecision" value="" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-actions">
-                            <!--button type="button" class="btn btn waves-effect waves-light btn-secondary">@lang('insuredPerson.cancel')</button>
-                                <button type="button" class="btn btn waves-effect waves-light btn-secondary">@lang('insuredPerson.clear')</button-->
-                                <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('insuredPerson.save')</button>
-                                <button type="button" class="btn btn waves-effect waves-light btn-info" onclick="submitform()">@lang('noticetype.reset')</button>
-                                <button type="button" class="btn waves-effect waves-light btn-secondary" id='btncancelacc' onclick="window.location='/noticetype'">@lang('noticetype.cancel')</button>
-                        </div>
+   
                     </div>
                 </form>
             </div>

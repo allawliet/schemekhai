@@ -8,6 +8,23 @@ use App\Http\Controllers\Controller;
 class revisionElsController extends Controller
 {
     //revision ELS-mat
+    public function index(){
+        $operid = session('loginname');
+        
+        if ($operid == '')
+        {
+            return redirect('/login');
+        }
+        
+        $idno = session('idno');
+        if ($idno == '')
+        {
+            return redirect('/home');
+        }
+        
+        
+        return view('scheme.noticeOd.revision.els.pk.index');
+    }
     public function indexEls(){
         $operid = session('loginname');
         
