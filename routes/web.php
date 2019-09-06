@@ -145,6 +145,7 @@ Route::group(['prefix' => 'Scheme','namespace'=>'Scheme'], function () {
     Route::post('/odinfo', 'NoticeOdController@postOdinfo');
     Route::post('/odemphistory', 'NoticeOdController@postOdEmphistory');
     Route::get('/odpreview', 'NoticeOdController@Preview');
+    Route::get('/revisionels', 'Revision\revisionElsController@index');
 // Route::get('/branch/{statecode}', 'NoticeOdController@getbranchname');
 
 /* ---------------------------END OF NOTICE OD(PK) ------------------------------- */
@@ -157,12 +158,14 @@ Route::group(['prefix' => 'Scheme','namespace'=>'Scheme'], function () {
 
 /* --------------------------- NOTICE OD(SCO) ------------------------------------ */
     Route::get('/obform_sco', 'NoticeOdController@indexSCO');
+    Route::get('/revisionassess_sco', 'Revision\RevisionAssessmentController@indexRevisionSCO');
     Route::get('/revisionels_sco', 'Revision\revisionElsController@indexEls');
 
 /* ---------------------------END OF NOTICE OD(SCO) ------------------------------- */
 
 /* --------------------------- NOTICE OD(SAO) ------------------------------------ */
     Route::get('/obform_sao', 'NoticeOdController@indexSAO');
+    Route::get('/revisionassess_sao', 'Revision\RevisionAssessmentController@indexRevisionSAO');
     Route::get('/revisionels_sao', 'Revision\revisionElsController@indexElsSao');
 
 /* ------------------------ END OF NOTICE OD(SAO) ---------------------------------- */

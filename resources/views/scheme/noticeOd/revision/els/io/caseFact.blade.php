@@ -25,9 +25,6 @@
                         </div>
                         @endif
 
-                        <h5 class="card-title"> Case Fact </h5>
-                        <hr>
-
                         <div class='row'>
                             <div class="col-md-6">
                                 <div class="form-group">

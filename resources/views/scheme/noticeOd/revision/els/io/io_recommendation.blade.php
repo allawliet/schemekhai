@@ -4,8 +4,6 @@
             <div class="card-body">
                 <form action="#">
                     <div class="form-body">
-                        <h5 class="card-title"> IO Recommendation</h5>
-                        <hr>
 
                         <div class='row'>
                             <div class="col-md-6">
@@ -35,18 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='row'>
-                            <div class="col-md-12">
-                                <div class="form-actions">
-                                    <!--button type="button" class="btn btn waves-effect waves-light btn-secondary">@lang('insuredPerson.cancel')</button>
-                                    <button type="button" class="btn btn waves-effect waves-light btn-secondary">@lang('insuredPerson.clear')</button-->
-                                    <button type="submit" class="btn btn waves-effect waves-light btn-success">SUBMIT</button>
-                                    <!-- <button type="button" class="btn btn waves-effect waves-light btn-info" onclick="submitform()">RESET</button>
-                                    <button type="button" class="btn waves-effect waves-light btn-secondary" id='btncancelacc' onclick="window.location='/noticetype'">cancel</button>
-                                    <button type="button" class="btn waves-effect waves-light btn-secondary" id='btncancelacc' onclick="window.location='/noticeaccident'">BACK</button> -->
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </form>
             </div>
