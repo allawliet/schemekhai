@@ -180,6 +180,13 @@ Route::group(['prefix' => 'Scheme','namespace'=>'Scheme'], function () {
 
 /* ------------------------ END OF NOTICE OD(REVISION) ---------------------------------- */
 
+/* --------------------------- NOTICE OD(OTHERS) ------------------------------------ */
+    Route::get('/noic', 'Others\NoIcController@index');
+    Route::get('/noic_sco', 'Others\NoIcController@index_SCO');
+    Route::get('/noic_sao', 'Others\NoIcController@index_SAO');
+
+/* ------------------------ END OF NOTICE OD(OTHERS) ---------------------------------- */
+
 /* ------------------------------ NOTICE ILAT(PK) -------------------------------- */
     Route::get('/obformilat', 'NoticeInvalidityController@index');
     Route::post('/wagesilat', 'NoticeInvalidityController@postWages');
