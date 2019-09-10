@@ -170,6 +170,20 @@ Route::group(['prefix' => 'Scheme','namespace'=>'Scheme'], function () {
 
 /* ------------------------ END OF NOTICE OD(SAO) ---------------------------------- */
 
+// Ifa 
+/* --------------------------- REVISION MEDICAL  ------------------------------------ */
+
+// PK
+    Route::get('/revisionmedical_pk','Revision\MedicalController@index_pk');
+// SCO
+    Route::get('/revisionmedical_sco','Revision\MedicalController@index_sco');
+// IO
+    Route::get('/revisionmedical_io','Revision\MedicalController@index_io');
+// SAO
+    Route::get('/revisionmedical_sao','Revision\MedicalController@index_sao');
+
+/* ------------------------ END OF REVISION MEDICAL ---------------------------------- */
+
 /* --------------------------- NOTICE OD(REVISION) ------------------------------------ */
     Route::get('/revisionprovisional_sco', 'Revision\ProvisionalController@index_SCO');
     Route::get('/revisionprovisional_sao', 'Revision\ProvisionalController@index_SAO');
