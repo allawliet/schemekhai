@@ -31,7 +31,7 @@
                                    <select class="form-control" readonly data-placeholder="jdtype" tabindex="2">
                                         <option selected readonly disabled hidden>Please Select </option>
                                         <option value="1">JD</option>
-                                        <option value="2" selected>JDR</option>
+                                        <option value="2">JDR</option>
                                         <option value="3">JDK</option>
                                     </select>
                                 </div>

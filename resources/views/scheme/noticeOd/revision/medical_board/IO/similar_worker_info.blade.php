@@ -10,12 +10,13 @@
                                     <label class="control-label">Identification Type</label>
                                     <select class="form-control">
                                         {{-- <option>@lang('insuredPerson.attr.choose_id_type')</option> --}}
+                                        <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                         <option value="">New IC</option>
                                         <option value="">Old IC</option>
                                         <option value="">Army ID</option>
                                         <option value="">Police ID</option>
-                                        <option value="">@lang('scheme/similarWorker.attr.ssn_id')</option>
-                                        <option value="">@lang('scheme/similarWorker.attr.cid')</option>
+                                        <option value="">Social Security Number (SSN) ID</option>
+                                        <option value="">CID</option>
                                     </select>
                                 </div>
                             </div>
@@ -46,10 +47,10 @@
                                         <label class="control-label">Employer Type</label>
                                         <select class="form-control" name="similar_emptype">
                                             {{-- <option>@lang('insuredPerson.attr.choose_id_type')</option> --}}
-                                            <option value="">New IC</option>
-                                            <option value="">Old IC</option>
-                                            <option value="">Army ID</option>
-                                            <option value="">Police ID</option>
+                                            <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
+                                            <option value="">Organization</option>
+                                            <option value="">Private Sector</option>
+                                            <option value="">Government Sector</option>
                                         </select>
                                     </div>
                                 </div>

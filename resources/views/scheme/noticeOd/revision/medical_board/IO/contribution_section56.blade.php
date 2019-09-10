@@ -55,13 +55,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                    <label class="control-label">{{--@lang('insuredPerson.attr.notice')--}}Recommended By</label>
-                                   <input type="text" name="recommendedby_medical" value="" class="form-control">
+                                   <input type="text" readonly name="recommendedby_medical" value="" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                    <label class="control-label">{{--@lang('insuredPerson.attr.notice')--}}Recommended Date</label>
-                                   <input type="date" name="recommendeddate_medical" value="" class="form-control">
+                                   <input type="date" readonly name="recommendeddate_medical" value="" class="form-control">
                                 </div>
                             </div>
                         </div>

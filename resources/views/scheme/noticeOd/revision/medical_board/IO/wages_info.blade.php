@@ -64,7 +64,7 @@
                                                         <div class="col-md-15">
                                                              <select class="form-control"
                                                                 data-placeholder="Month" tabindex="2">
-                                                                <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                                                 <option value="January">@lang('scheme/wages.attr.january')
                                                                 </option>
                                                                 <option value="February">
@@ -135,7 +135,7 @@
                                                         <div class="col-md-15">
                                                              <select class="form-control"
                                                                 data-placeholder="Month" tabindex="2">
-                                                                <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                                                 <option value="January">@lang('scheme/wages.attr.january')
                                                                 </option>
                                                                 <option value="February">
@@ -205,7 +205,7 @@
                                                         <div class="col-md-15">
                                                              <select class="form-control"
                                                                 data-placeholder="Month" tabindex="2">
-                                                                <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                                                 <option value="January">@lang('scheme/wages.attr.january')
                                                                 </option>
                                                                 <option value="February">
@@ -275,7 +275,7 @@
                                                         <div class="col-md-15">
                                                              <select class="form-control"
                                                                 data-placeholder="Month" tabindex="2">
-                                                                <option>@lang('scheme/wages.attr.please_select')</option>
+                                                               <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                                                 <option value="January">@lang('wages.attr.january')
                                                                 </option>
                                                                 <option value="February">
@@ -345,7 +345,7 @@
                                                         <div class="col-md-15">
                                                              <select class="form-control"
                                                                 data-placeholder="Month" tabindex="2">
-                                                                <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                                                 <option value="January">@lang('scheme/wages.attr.january')
                                                                 </option>
                                                                 <option value="February">
@@ -415,7 +415,7 @@
                                                         <div class="col-md-15">
                                                              <select class="form-control"
                                                                 data-placeholder="Month" tabindex="2">
-                                                                <option>@lang('scheme/wages.attr.please_select')</option>
+                                                                <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                                                 <option value="January">@lang('scheme/wages.attr.january')
                                                                 </option>
                                                                 <option value="February">
@@ -497,7 +497,7 @@
                                 <div class="form-group">
                                     <label class="control-label">@lang('scheme/wages.attr.recommended')</label>
                                     <select class="form-control">
-                                        <option value="">@lang('scheme/wages.attr.please_select')</option>
+                                        <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                         <option value="">@lang('scheme/wages.attr.yes')</option>
                                         <option value="">@lang('scheme/wages.attr.no')</option>
                                     </select>
@@ -507,7 +507,7 @@
                                 <div class="form-group">
                                     <label class="control-label">Reason</label>
                                     <select class="form-control">
-                                        <option value="">@lang('scheme/wages.attr.please_select')</option>
+                                        <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                         <option value="">Does Not Meet 24 Working Days</option>
                                         <option value="">Need Clarification</option>
                                     </select>

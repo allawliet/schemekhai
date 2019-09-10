@@ -47,7 +47,7 @@
                                                     <th style='width:15%' class="text-center">@lang('scheme/wages.attr.wages')</th>
                                                     <th style='width:15%' class="text-center">@lang('scheme/wages.attr.contribution')</th>
                                                     <th style='width:15%' class="text-center">@lang('scheme/wages.attr.contribution_surplus')</th>
-                                                    <th style='width:15%' class="text-center">@lang('scheme/wages.attr.reject')</th>
+                                                    {{-- <th style='width:15%' class="text-center">@lang('scheme/wages.attr.reject')</th> --}}
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -104,13 +104,12 @@
                                                             <input type="text" id="year" name="year" value="" class="form-control">
                                                         </div>
                                                     </td>
-                                                    <td>
+                                                    {{-- <td>
                                                         <div class="custom-control custom-checkbox">
                                                             <input type="checkbox" class="custom-control-input" id="customCheck1">
                                                             <label class="custom-control-label" for="customCheck1"></label>
                                                         </div>
-                                                    </td>
-
+                                                    </td> --}}
                                                 </tr>  
                                                 <tr data-expanded="true">
                                                     <td>2</td>
@@ -165,12 +164,12 @@
                                                             <input type="text" id="year" name="year" value="" class="form-control">
                                                         </div>
                                                     </td>
-                                                    <td>
+                                                    {{-- <td>
                                                         <div class="custom-control custom-checkbox">
                                                             <input type="checkbox" class="custom-control-input" id="customCheck2">
                                                             <label class="custom-control-label" for="customCheck2"></label>
                                                         </div>
-                                                    </td>
+                                                    </td> --}}
                                                 </tr>  
                                                 <tr data-expanded="true">
                                                     <td>3</td>
@@ -225,12 +224,12 @@
                                                             <input type="text" id="year" name="year" value="" class="form-control">
                                                         </div>
                                                     </td>
-                                                    <td>
+                                                    {{-- <td>
                                                         <div class="custom-control custom-checkbox">
                                                             <input type="checkbox" class="custom-control-input" id="customCheck3">
                                                             <label class="custom-control-label" for="customCheck3"></label>
                                                         </div>
-                                                    </td>
+                                                    </td> --}}
                                                 </tr>  
                                                 <tr data-expanded="true">
                                                     <td>4</td>
@@ -285,12 +284,12 @@
                                                             <input type="text" id="year" name="year" value="" class="form-control">
                                                         </div>
                                                     </td>
-                                                    <td>
+                                                    {{-- <td>
                                                         <div class="custom-control custom-checkbox">
                                                             <input type="checkbox" class="custom-control-input" id="customCheck4">
                                                             <label class="custom-control-label" for="customCheck4"></label>
                                                         </div>
-                                                    </td>
+                                                    </td> --}}
                                                 </tr>  
                                                 <tr data-expanded="true">
                                                     <td>5</td>
@@ -345,12 +344,12 @@
                                                             <input type="text" id="year" name="year" value="" class="form-control">
                                                         </div>
                                                     </td>
-                                                    <td>
+                                                    {{-- <td>
                                                         <div class="custom-control custom-checkbox">
                                                             <input type="checkbox" class="custom-control-input" id="customCheck5">
                                                             <label class="custom-control-label" for="customCheck5"></label>
                                                         </div>
-                                                    </td>
+                                                    </td> --}}
                                                 </tr>  
                                                 <tr data-expanded="true">
                                                     <td>6</td>
@@ -405,12 +404,12 @@
                                                             <input type="text" id="year" name="year" value="" class="form-control">
                                                         </div>
                                                     </td>
-                                                    <td>
+                                                    {{-- <td>
                                                         <div class="custom-control custom-checkbox">
                                                             <input type="checkbox" class="custom-control-input" id="customCheck6">
                                                             <label class="custom-control-label" for="customCheck6"></label>
                                                         </div>
-                                                    </td>
+                                                    </td> --}}
                                                 </tr>    
                                             </tbody>
                                         </table>

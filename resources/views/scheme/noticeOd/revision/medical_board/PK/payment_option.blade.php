@@ -28,8 +28,11 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="control-label">{{--@lang('insuredPerson.attr.hukPaymentOption')--}}HUK Payment Option</label>
-                                    <input type="text" id="hukPaymentOption_medical" name="hukPaymentOption" value=""
-                                        class="form-control">
+                                    <select class="form-control" data-placeholder="hukPaymentOption_medical" tabindex="2">
+                                        <option selected readonly disabled hidden>Please Select </option>
+                                        <option value="">Lump Sum</option>
+                                        <option value="">1/5 Option</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-md-6">

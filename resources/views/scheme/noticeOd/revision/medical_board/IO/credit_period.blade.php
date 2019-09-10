@@ -47,7 +47,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Total Month</label>
+                                <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Total Months</label>
                                 <input type="text" name="total_month_medical" value="" class="form-control">
                                 </div>
                             </div>

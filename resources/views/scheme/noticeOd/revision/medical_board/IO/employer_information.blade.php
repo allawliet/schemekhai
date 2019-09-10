@@ -29,12 +29,12 @@
                                 <div class="form-group">
                                     <label class="control-label">Wages Type</label>
                                     <select name="wages_type" class="form-control">
-                                        <option value="">Please Select</option>
+                                        <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
                                         <option value="">Current</option>
                                         <option value="">Previous</option>
                                         <option value="">Multiple</option>
                                         <option value="">Similar Worker</option>
-                                        <option value="">Similar</option>
+                                        <option value="">Similar Industry</option>
                                     </select>
                                 </div>
                             </div>
@@ -56,10 +56,10 @@
                                 <div class="form-group">
                                     <label class="control-label">Employer Type</label>
                                     <select name="emptype" class="form-control">
-                                        <option value="">Please Select</option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value="">Government</option>
+                                        <option value="please select" selected hidden readonly>@lang('scheme/noticetype.attr.please_select')</option>
+                                        <option value="">Organization</option>
+                                        <option value="">Private Sector</option>
+                                        <option value="">Government Sector</option>
                                     </select>
                                 </div>
                             </div>

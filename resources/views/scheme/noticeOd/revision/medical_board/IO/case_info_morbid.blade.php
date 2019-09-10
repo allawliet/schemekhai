@@ -59,7 +59,7 @@
                                     <select class="form-control" data-placeholder="potential_sec96" tabindex="2">
                                         <option selected readonly disabled hidden>Please Select </option>
                                         <option value="Yes">Yes</option>
-                                        <option value="No" selected>No</option>
+                                        <option value="No">No</option>
                                     </select>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label class="control-label">{{--@lang('insuredPerson.attr.appealReason')--}}Remark</label>
-                                    <textarea name="remark" class="form-control"></textarea>
+                                    <textarea name="remark" readonly class="form-control"></textarea>
                                 </div>
                             </div>
                         </div>

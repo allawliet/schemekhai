@@ -67,7 +67,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label>Please Explain the Symptoms / Sign Encountered</label>
+                                    <label>Please Explain the Symptoms / Signs Encountered</label>
                                     <textarea name="symptons_medical" class="form-control"></textarea>
                                 </div>
                             </div>

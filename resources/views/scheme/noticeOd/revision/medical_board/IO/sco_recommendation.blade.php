@@ -38,13 +38,13 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Recommended By</label>
-                                <input type="text" id="sco_recommendedby" name="sco_recommendedby" value="" class="form-control">
+                                <input type="text" id="sco_recommendedby" readonly name="sco_recommendedby" value="" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Recommended Date</label>
-                                <input type="date" id="sco_recommendeddate" name="sco_recommendeddate" value="" class="form-control">
+                                <input type="date" id="sco_recommendeddate" readonly name="sco_recommendeddate" value="" class="form-control">
                                 </div>
                             </div>
                         </div>

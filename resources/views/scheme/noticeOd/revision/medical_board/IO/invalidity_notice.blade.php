@@ -79,7 +79,7 @@
                                                 <td> <label class="control-label">Does the insured person is still working ?</label></td>
                                                 <td> <select class="form-control" data-placeholder="desc_medical" tabindex="2">
                                                     <option selected readonly disabled hidden>Please Select </option>
-                                                    <option value="Yes" selected>Yes</option>
+                                                    <option value="Yes">Yes</option>
                                                     <option value="No">No</option>
                                                 </select></td>
                                             </tr>
@@ -108,8 +108,8 @@
                                                 <td> <label class="control-label">Eligibility based on age on the date of entry scheme</label></td>
                                                 <td> <select class="form-control" readonly data-placeholder="eligibity_medical" tabindex="2">
                                                     <option selected readonly disabled hidden>Please Select </option>
-                                                    <option value="1" selected>Yes</option>
-                                                    <option value="2">No</option>
+                                                    <option value="1">Memenuhi Kelayakan Umur</option>
+                                                    <option value="2">Tidak Memenuhi Kelayakan Umur</option>
                                                 </select> </td>
                                             </tr>
                                         </tbody>
@@ -123,7 +123,7 @@
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Statuotary Body</label>
                                 <select class="form-control" data-placeholder="statuotary_medical" tabindex="2">
                                     <option selected readonly disabled hidden>Please Select </option>
-                                    <option value="Yes" selected>Yes</option>
+                                    <option value="Yes">Yes</option>
                                     <option value="No">No</option>
                                 </select>
                                 </div>
@@ -133,8 +133,9 @@
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}SPI Eligible</label>
                                 <select class="form-control" readonly data-placeholder="statuotary_medical" tabindex="2">
                                     <option selected readonly disabled hidden>Please Select </option>
-                                    <option value="Yes" selected>Yes</option>
-                                    <option value="No">No</option>
+                                    <option value="Yes">Eligible</option>
+                                    <option value="No">Not Eligible</option>
+                                    <option value="12">Minimum 12 Months</option>
                                 </select>
                                 </div>
                             </div>
@@ -165,7 +166,7 @@
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Qualifying Condition</label>
                                 <select class="form-control" readonly data-placeholder="qualifyingcondition_medical" tabindex="2">
                                     <option selected readonly disabled hidden>Please Select </option>
-                                    <option value="1" selected>Full (2/3)</option>
+                                    <option value="1">Full (2/3)</option>
                                     <option value="2">Reduced (1/3)</option>
                                     <option value="3">Full (24/40)</option>
                                     <option value="4">Full (36/60)</option>
@@ -179,7 +180,7 @@
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Qualifying Condition (Morbid Date)</label>
                                 <select class="form-control" readonly data-placeholder="qualifyingmorbiddate_medical" tabindex="2">
                                     <option selected readonly disabled hidden>Please Select </option>
-                                    <option value="1" selected>Full (2/3)</option>
+                                    <option value="1">Full (2/3)</option>
                                     <option value="2">Reduced (1/3)</option>
                                     <option value="3">Full (24/40)</option>
                                     <option value="4">Full (36/60)</option>
@@ -195,7 +196,7 @@
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Invalidity Starting Date Requirements</label>
                                 <select class="form-control" data-placeholder="invaliditystartdate_medical" tabindex="2">
                                     <option selected readonly disabled hidden>Please Select </option>
-                                    <option value="Yes" selected>Yes</option>
+                                    <option value="Yes">Yes</option>
                                     <option value="No">No</option>
                                 </select>
                                 </div>
@@ -205,7 +206,7 @@
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Morbid Date Requirements</label>
                                 <select class="form-control" data-placeholder="morbiddate_medical" tabindex="2">
                                     <option selected readonly disabled hidden>Please Select </option>
-                                    <option value="Yes" selected>Yes</option>
+                                    <option value="Yes">Yes</option>
                                     <option value="No">No</option>
                                 </select>
                                 </div>
@@ -215,7 +216,7 @@
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Credit Period Requirement</label>
                                 <select class="form-control" data-placeholder="creditperiodreq_medical" tabindex="2">
                                     <option selected readonly disabled hidden>Please Select </option>
-                                    <option value="Yes" selected>Yes</option>
+                                    <option value="Yes">Yes</option>
                                     <option value="No">No</option>
                                 </select>
                                 </div>
@@ -227,7 +228,7 @@
                                 <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Section 56 Requirement</label>
                                 <select class="form-control" data-placeholder="section56req_medical" tabindex="2">
                                     <option selected readonly disabled hidden>Please Select </option>
-                                    <option value="Yes" selected>Yes</option>
+                                    <option value="Yes">Yes</option>
                                     <option value="No">No</option>
                                 </select>
                                 </div>
