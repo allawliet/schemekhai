@@ -7,30 +7,24 @@
                         <div class="row p-t-20">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                   <label class="control-label">{{--@lang('insuredPerson.attr.notice')--}}Approval</label>
-                                   <select class="form-control" data-placeholder="approve" tabindex="2">
+                                   <label class="control-label">{{--@lang('insuredPerson.attr.notice')--}}Potential Section 96</label>
+                                   <select class="form-control" data-placeholder="potential96" tabindex="2">
                                         <option selected readonly disabled hidden>Please Select </option>
-                                        <option value="1">Approve</option>
-                                        <option value="2">Not Approve</option>
+                                        <option value="1">Yes</option>
+                                        <option value="2">No</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Route</label>
-                                <input type="text" id="route" name="route" value="" class="form-control">
+                                <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}HUK Notice ID</label>
+                                <input type="text" name="huknotice_id" value="" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Approved By</label>
-                                <input type="text" id="sco_recommendedby" readonly name="sco_recommendedby" value="" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Approved Date</label>
-                                <input type="date" id="sco_recommendeddate" readonly name="sco_recommendeddate" value="" class="form-control">
+                                <label class="control-label">{{--@lang('insuredPerson.attr.reasonOfApplication')--}}Remark </label>
+                                <textarea name="remark" value="" class="form-control"></textarea>
                                 </div>
                             </div>
                         </div>

@@ -64,6 +64,23 @@
                                     </div>
                                 </div>
                                 <div class="card m-b-0">
+                                    <div class="card-header" role="tab" id="section96_medical">
+                                        <h5 class="mb-0">
+                                            <a class="link" data-toggle="collapse" data-parent="#accordion2"
+                                                href="#section96" aria-expanded="false" aria-controls="collapseOne19">
+                                                <h5 class="card-title"><i class="fa fa-plus"></i>
+                                                    {{--@lang('index.attr.section96')--}}Section 96
+                                                </h5>
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div id="section96" class="collapse" role="tabpanel" aria-labelledby="headingOne1">
+                                        <div class="card-body">
+                                            @include('scheme.noticeOd.revision.medical_board.SAO.section96')
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card m-b-0">
                                     <div class="card-header" role="tab" id="paymentOption_medical">
                                         <h5 class="mb-0">
                                             <a class="link" data-toggle="collapse" data-parent="#accordion2"

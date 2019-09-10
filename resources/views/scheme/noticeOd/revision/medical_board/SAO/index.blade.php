@@ -106,7 +106,7 @@
                         </div>
                         <div class="tab-pane p-20" id="recommendation" role="tabpanel">
                             {{-- @include('Scheme.common.uploadDoc') --}}
-                            @include('scheme.noticeOd.revision.medical_board.IO.recommendation') 
+                            @include('scheme.noticeOd.revision.medical_board.SAO.recommendation') 
                         </div>
                         {{-- Condition Application --}}
                         <div class="tab-pane p-20" id="appeal_condition" role="tabpanel">
@@ -119,7 +119,7 @@
                         </div>
                         <div class="tab-pane p-20" id="morbid_date" role="tabpanel">
                             {{-- @include('Scheme.common.uploadDoc') --}}
-                            @include('scheme.noticeOd.revision.medical_board.IO.morbid_date') 
+                            @include('scheme.noticeOd.revision.medical_board.SAO.morbid_date') 
                         </div>
                     </div>
                 </div>
