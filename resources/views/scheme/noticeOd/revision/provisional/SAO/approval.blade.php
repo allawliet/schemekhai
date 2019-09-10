@@ -4,40 +4,38 @@
             <div class="card-body">
                 <div class="p-20">
                     <form action="#">
-                        {{-- <h5 class="card-title">@lang('scheme/caseinfo.title')</h5>
-                        <hr> --}}
+                        <h5 class="card-title">Approval</h5>
+                        <hr>
                         <div class="row p-t-20">
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Approval</label>
                                 <select class="form-control">
-                                  <option value="" selected>Please Select</option>
+                                  <option selected readonly disabled hidden>Please Select</option>
                                   <option value="">Approved</option>
                                 </select>
                             </div>
                           </div>
                         </div>
                         <div class="row p-t-20">
-                          <div class="col-md-12">
+                          <div class="col-md-8">
                             <div class="form-group">
                               <label class="control-label">Approved By</label>
-                              <input type="text" name="approved_by" id="approved_by" class="form-control">
+                              <input type="text" name="approved_by" id="approved_by" class="form-control" readonly>
                             </div>
                           </div>
-                        </div>
-                        <div class="row p-t-20">
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Approved Date</label>
-                              <input type="date" name="date" id="date" class="form-control">
+                              <input type="date" name="date" id="date" class="form-control" readonly>
                             </div>
                           </div>
                         </div>
                         <div class="form-actions">
-                            <button type="submit" class="btn btn-success"> @lang('scheme/caseinfo.save')</button>
+                          <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('scheme/noticetype.save')</button>
+                          <button type="button" class="btn btn waves-effect waves-light btn-success" onclick="submitform()">@lang('scheme/noticetype.reset')</button>
+                          <button type="button" class="btn waves-effect waves-light btn-success" id='btncancelacc' onclick="window.location='/noticetype'">@lang('scheme/noticetype.cancel')</button>
                         </div>
-                              {{-- <button type="button" class="btn btn-danger">@lang('insuredPerson.cancel')</button>
-                              <button type="button" class="btn btn-warning">@lang('insuredPerson.clear')</button> --}}
                       </form>
                   </div>
               </div>

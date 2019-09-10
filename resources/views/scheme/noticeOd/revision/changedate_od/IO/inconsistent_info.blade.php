@@ -92,22 +92,33 @@
                                     <label class="control-label" id='lblinconsistencyerror0' style='color:red'></label>
                                 </div>
                             </div>
-                            {{-- <div class="row p-t-20">
+                            <div class="row p-t-20">
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>@lang('scheme/inconsistency.attr.review')</label>
-                                        <input type="text" class="form-control clearFields" name="city"  value="">
+                                        <input type="text" class="form-control clearFields" name="review" id="review" value="">
                                     </div>
                                 </div>
-                            </div> --}}
-                            {{-- <div class="row p-t-20">
-                                <div class="col-md-12">
+                            </div>
+                            <div class="row p-t-20">
+                                <div class="col-md-8">
                                     <div class="form-group">
                                         <label>@lang('scheme/inconsistency.attr.reviewBy')</label>
-                                        <input type="text" class="form-control clearFields" name="origin"  value="">
+                                        <select class="form-control" readonly>
+                                            <option selected readonly disabled hidden>Please Select</option>
+                                            <option value="">SCO</option>
+                                            <option value="">IO</option>
+                                            <option value="">SAO</option>
+                                        </select>
                                     </div>
                                 </div>
-                            </div> --}}
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Investigation Date</label>
+                                        <input type="date" class="form-control clearFields" name="date" id="date" value="" readonly>
+                                    </div>
+                                </div>
+                            </div>
                         <div class='row'>
                             <div class="col-md-12">
                                 <div class="form-actions">

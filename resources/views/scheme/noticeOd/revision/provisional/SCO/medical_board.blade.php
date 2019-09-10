@@ -10,8 +10,8 @@
                           <div class="col-md-4">
                             <div class="form-group">
                              <label class="control-label">JD Type</label>
-                              <select class="form-control">
-                                <option value="" selected>Please Select</option>
+                              <select class="form-control" readonly>
+                                <option selected readonly disabled hidden>Please Select</option>
                                 <option value="">JD</option>
                                 <option value="">JDK</option>
                               </select>
@@ -20,13 +20,13 @@
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">JD/JDR Session Date</label>
-                              <input type="date" name="sessiondate" id="sessiondate" class="form-control">
+                              <input type="date" name="sessiondate" id="sessiondate" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Assessment Type</label>
-                              <input type="text" name="assessment_type" id="assessment_type" class="form-control">
+                              <input type="text" name="assessment_type" id="assessment_type" class="form-control" readonly>
                             </div>
                           </div>
                         </div>
@@ -34,19 +34,19 @@
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">JD/JDR Result</label>
-                              <input type="text" name="result" id="result" class="form-control">
+                              <input type="text" name="result" id="result" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Assessment %</label>
-                              <input type="text" name="assessment" id="assessment" class="form-control">
+                              <input type="text" name="assessment" id="assessment" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">ELS</label>
-                              <input type="text" name="els" id="els" class="form-control">
+                              <input type="text" name="els" id="els" class="form-control" readonly>
                             </div>
                           </div>
                         </div>
@@ -54,7 +54,7 @@
                           <div class="col-md-12">
                             <div class="form-group">
                               <label class="control-label">Remarks</label>
-                              <textarea type="text" name="remarks" id="remarks" class="form-control"></textarea>
+                              <textarea type="text" name="remarks" id="remarks" class="form-control" readonly></textarea>
                             </div>
                           </div>
                         </div>
@@ -62,19 +62,19 @@
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Accrual Date</label>
-                              <input type="date" name="accrual_date" id="accrual_date" class="form-control">
+                              <input type="date" name="accrual_date" id="accrual_date" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Provisional Assessment End Date</label>
-                              <input type="date" name="provisional_end" id="provisional_end" class="form-control">
+                              <input type="date" name="provisional_end" id="provisional_end" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Provisional Assessment Accrual Date</label>
-                              <input type="date" name="provisional_accrual" id="provisional_accrual" class="form-control">
+                              <input type="date" name="provisional_accrual" id="provisional_accrual" class="form-control" readonly>
                             </div>
                           </div>
                         </div>
@@ -82,13 +82,15 @@
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Final Assessment Accrual Date</label>
-                              <input type="date" name="final_date" id="final_date" class="form-control">
+                              <input type="date" name="final_date" id="final_date" class="form-control" readonly>
                             </div>
                           </div>
                         </div>
-                          <div class="form-actions">
-                              <button type="submit" class="btn btn-success"> @lang('scheme/caseinfo.save')</button>
-                          </div>
+                        <div class="form-actions">
+                          <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('scheme/noticetype.save')</button>
+                          <button type="button" class="btn btn waves-effect waves-light btn-success" onclick="submitform()">@lang('scheme/noticetype.reset')</button>
+                          <button type="button" class="btn waves-effect waves-light btn-success" id='btncancelacc' onclick="window.location='/noticetype'">@lang('scheme/noticetype.cancel')</button>
+                        </div>
                               {{-- <button type="button" class="btn btn-danger">@lang('insuredPerson.cancel')</button>
                               <button type="button" class="btn btn-warning">@lang('insuredPerson.clear')</button> --}}
                         </form>

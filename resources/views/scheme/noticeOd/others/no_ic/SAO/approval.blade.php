@@ -10,12 +10,14 @@
                           <div class="col-md-8">
                             <div class="form-group">
                               <label class="control-label">Approved By</label>
+                              <span class="required">*</span>
                               <input type="text" name="approved_by" id="approved_by" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Approved Date</label>
+                              <span class="required">*</span>
                               <input type="date" name="date" id="date" class="form-control" readonly>
                             </div>
                           </div>
@@ -24,6 +26,7 @@
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">SSN Appendix A Received</label>
+                              <span class="required">*</span>
                               <input type="text" name="ssn_appendix" id="ssn_appendix" class="form-control" readonly>
                             </div>
                           </div>

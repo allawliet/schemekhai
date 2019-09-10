@@ -10,7 +10,7 @@
                           <div class="col-md-4">
                             <div class="form-group">
                              <label class="control-label">Recommendation</label>
-                              <select class="form-control" readonly>
+                              <select class="form-control">
                                 <option selected readonly disabled hidden>Please Select</option>
                                 <option value="">Recommended</option>
                                 <option value="">Not Recommended</option>
@@ -20,7 +20,7 @@
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Route</label>
-                                <select class="form-control" readonly>
+                                <select class="form-control">
                                   <option selected readonly disabled hidden>Please Select</option>
                                   <option value="">SAO</option>
                                 </select>
@@ -31,13 +31,13 @@
                           <div class="col-md-8">
                             <div class="form-group">
                               <label class="control-label">Recommended By</label>
-                              <input type="text" name="recommended_by" id="recommended_by" class="form-control">
+                              <input type="text" name="recommended_by" id="recommended_by" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Recommended Date</label>
-                              <input type="date" name="date" id="date" class="form-control">
+                              <input type="date" name="date" id="date" class="form-control" readonly>
                             </div>
                           </div>
                         </div>

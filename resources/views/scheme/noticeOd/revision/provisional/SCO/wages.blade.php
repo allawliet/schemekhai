@@ -27,13 +27,13 @@
                                                         <td>1</td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="year" name="year" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
-                                                                    data-placeholder="Month" tabindex="2">
+                                                                    data-placeholder="Month" tabindex="2" readonly>
                                                                     <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
@@ -63,12 +63,12 @@
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="wages" name="wages" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="contribution" name="contribution" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                     </tr>  
@@ -76,13 +76,13 @@
                                                         <td>2</td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="year" name="year" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
-                                                                    data-placeholder="Month" tabindex="2">
+                                                                    data-placeholder="Month" tabindex="2" readonly>
                                                                     <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
@@ -112,12 +112,12 @@
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="wages" name="wages" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="contribution" name="contribution" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                     </tr>  
@@ -125,13 +125,13 @@
                                                         <td>3</td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="year" name="year" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
-                                                                    data-placeholder="Month" tabindex="2">
+                                                                    data-placeholder="Month" tabindex="2" readonly>
                                                                     <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
@@ -161,12 +161,12 @@
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="wages" name="wages" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="contribution" name="contribution" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                     </tr>  
@@ -174,13 +174,13 @@
                                                         <td>4</td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="year" name="year" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
-                                                                    data-placeholder="Month" tabindex="2">
+                                                                    data-placeholder="Month" tabindex="2" readonly>
                                                                     <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
@@ -210,12 +210,12 @@
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="wages" name="wages" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="contribution" name="contribution" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                     </tr>  
@@ -223,13 +223,13 @@
                                                         <td>5</td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="year" name="year" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
-                                                                    data-placeholder="Month" tabindex="2">
+                                                                    data-placeholder="Month" tabindex="2" readonly>
                                                                     <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
@@ -259,12 +259,12 @@
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="wages" name="wages" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="contribution" name="contribution" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                     </tr>   
@@ -272,13 +272,13 @@
                                                         <td>6</td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="year" name="year" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
                                                                  <select class="form-control"
-                                                                    data-placeholder="Month" tabindex="2">
+                                                                    data-placeholder="Month" tabindex="2" readonly>
                                                                     <option selected readonly disabled hidden>Please Select</option>
                                                                     <option value="January">@lang('scheme/wages.attr.january')
                                                                     </option>
@@ -308,12 +308,12 @@
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="wages" name="wages" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="col-md-15">
-                                                                <input type="text" id="year" name="year" value="" class="form-control">
+                                                                <input type="text" id="contribution" name="contribution" value="" class="form-control" readonly>
                                                             </div>
                                                         </td>
                                                     </tr>    
@@ -332,14 +332,15 @@
                                     </div>
                                 </div>
                             </div>
+                            <br>
                             <div class="form-actions">
-                                    {{-- <button type="button" class="btn btn waves-effect waves-light btn-secondary">@lang('insuredPerson.cancel')</button>
-                                    <button type="button" class="btn btn waves-effect waves-light btn-secondary">@lang('insuredPerson.clear')</button> --}}
-                                    <button type="submit" class="btn btn-success"> @lang('scheme/caseinfo.save')</button>
-                                </div>
+                                <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('scheme/noticetype.save')</button>
+                                <button type="button" class="btn btn waves-effect waves-light btn-success" onclick="submitform()">@lang('scheme/noticetype.reset')</button>
+                                <button type="button" class="btn waves-effect waves-light btn-success" id='btncancelacc' onclick="window.location='/noticetype'">@lang('scheme/noticetype.cancel')</button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>

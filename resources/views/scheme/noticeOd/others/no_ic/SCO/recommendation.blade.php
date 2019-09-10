@@ -10,12 +10,14 @@
                           <div class="col-md-8">
                             <div class="form-group">
                               <label class="control-label">Recommended By</label>
+                              <span class="required">*</span>
                               <input type="text" name="recommended_by" id="recommended_by" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Recommended Date</label>
+                              <span class="required">*</span>
                               <input type="date" name="date" id="date" class="form-control" readonly>
                             </div>
                           </div>

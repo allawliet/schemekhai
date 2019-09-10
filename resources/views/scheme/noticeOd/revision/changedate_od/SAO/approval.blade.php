@@ -31,13 +31,13 @@
                           <div class="col-md-8">
                             <div class="form-group">
                               <label class="control-label">Scheme Approved By</label>
-                              <input type="text" name="approved_by" id="approved_by" class="form-control">
+                              <input type="text" name="approved_by" id="approved_by" class="form-control" readonly>
                             </div>
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
                               <label class="control-label">Scheme Approved Date</label>
-                              <input type="date" name="date" id="date" class="form-control">
+                              <input type="date" name="date" id="date" class="form-control" readonly>
                             </div>
                           </div>
                         </div>

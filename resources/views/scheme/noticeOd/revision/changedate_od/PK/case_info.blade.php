@@ -37,7 +37,7 @@
                                             <option value="">Police ID</option>
                                             <option value="">Social Security Number ID (SSN)</option>
                                             <option value="">CID</option>
-                                  </select>
+                                        </select>
                                 </div>
                             </div>
                             <div class="col-md-4">

@@ -3,10 +3,10 @@
 @section('content')
 <div class="col-md-12">
         <div class="card-body p-b-0">
-            <h4 class="card-title">@lang('scheme/index.attr.od_notice')</h4>
+            <h4 class="card-title">Pre Process No IC</h4>
             
             <ul class="nav customtab" role="tablist" >
-                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#lampiran" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Lampiran A</span></a> </li>
+                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#lampiran" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Appendix A</span></a> </li>
                 <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#rec" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Recommendation</span></a> </li>
            </ul>
            <br>

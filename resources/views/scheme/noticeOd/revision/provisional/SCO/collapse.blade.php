@@ -74,21 +74,6 @@
             </div>
         </div>
     </div> 
-    <!-- recommendation -->
-    <div class="card m-b-0">
-        <div class="card-header" role="tab" id="headingOne6">
-            <h5 class="mb-0">                           
-                <a class="link" data-toggle="collapse" data-parent="#accordion2" href="#recommendation" aria-expanded="true" aria-controls="collapseOne1">
-                <h5 class="card-title"><i class="fa fa-plus"></i> Recommendation</h5>
-                </a>
-            </h5>
-        </div>
-        <div id="recommendation" class="collapse" role="tabpanel" aria-labelledby="headingOne6">
-            <div class="card-body">
-                @include('scheme.noticeOd.revision.provisional.SCO.recommendation')
-            </div>
-        </div>
-    </div>   
 </div>
 <!-- Row -->
 

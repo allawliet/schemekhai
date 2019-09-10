@@ -8,6 +8,7 @@
             <ul class="nav customtab" role="tablist" >
                 <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#remarks" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Remarks</span></a> </li>
                 <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#claim" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Claim Details</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#rec" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Recommendation</span></a> </li>
                 <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#supporting" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down"> Supporting Document</span></a> </li>
            </ul>
            <br>
@@ -44,13 +45,16 @@
            <!-- Nav tabs -->
             <div class="tab-content">
                 <div class="tab-pane p-20 active" id="remarks" role="tabpanel">
-                    {{-- @include('scheme.noticeOd.SCO.remarks') --}}
+                  @include('scheme.noticeOd.revision.provisional.SCO.remarks')
                 </div>
                 <div class="tab-pane p-20" id="claim" role="tabpanel">
-                    @include('scheme.noticeOd.revision.provisional.SCO.collapse')
+                  @include('scheme.noticeOd.revision.provisional.SCO.collapse')
+                </div>
+                <div class="tab-pane p-20" id="rec" role="tabpanel">
+                  @include('scheme.noticeOd.revision.provisional.SCO.recommendation')
                 </div>
                 <div class="tab-pane p-20" id="supporting" role="tabpanel">
-                  {{-- @include('scheme.noticeOd.SCO.collapse_supporting') --}}
+                  @include('scheme.noticeOd.revision.provisional.SCO.upload_doc')
                 </div>
             </div>
         </div>

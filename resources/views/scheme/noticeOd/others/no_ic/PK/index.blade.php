@@ -3,7 +3,7 @@
 @section('content')
 <div class="col-md-12">
         <div class="card-body p-b-0">
-            <h4 class="card-title">@lang('scheme/index.attr.od_notice')</h4>
+            <h4 class="card-title">Pre Process No IC</h4>
            <br>
 
            <div class="row" id="rowindex">
@@ -40,7 +40,7 @@
                   <div class="card-body">
                       <div class="p-20">
                           <form action="#">
-                              <h5 class="card-title">Lampiran A</h5>
+                              <h5 class="card-title">Appendix A</h5>
                               <hr>
                               <div class="row p-t-20">
                                 <div class="col-md-4">
@@ -78,7 +78,7 @@
                                               class="required">*</span>
                                               <select class="form-control" readonly>
                                                   <option selected readonly disabled hidden>Please Select</option>
-                                                  <option value="" selected>New IC</option>
+                                                  <option value="">New IC</option>
                                                   <option value="">Old IC</option>
                                                   <option value="">Army ID</option>
                                                   <option value="">Police ID</option>
@@ -100,7 +100,7 @@
                                               class="required">*</span>
                                             <select class="form-control" readonly>
                                               <option selected readonly disabled hidden>Please Select</option>
-                                              <option value="" selected>Yes</option>
+                                              <option value="">Yes</option>
                                               <option value="">No</option>
                                             </select>
                                       </div>
@@ -164,7 +164,29 @@
                                 <div class="col-md-4">
                                   <div class="form-group">
                                     <label class="control-label">State</label>
-                                    <input type="text" name="state" id="state" class="form-control" readonly>
+                                    <div class="col-md-4">
+                                      <div class="form-group">
+                                        <label class="control-label">State</label>
+                                          <select class="form-control" readonly>
+                                            <option selected readonly disabled hidden>Please Select</option>
+                                            <option>Wilayah Persekutuan Kuala Lumpur</option>
+                                            <option>Selangor</option>
+                                            <option>Perak</option>
+                                            <option>Pulau Pinang</option>
+                                            <option>Kedah</option>
+                                            <option>Perlis</option>
+                                            <option>Negeri Sembilan</option>
+                                            <option>Melaka</option>
+                                            <option>Johor</option>
+                                            <option>Pahang</option>
+                                            <option>Terengganu</option>
+                                            <option>Kelantan</option>
+                                            <option>Wilayah Persekutuan Labuan</option>
+                                            <option>Sabah</option>
+                                            <option>Sarawak</option>
+                                          </select>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
                                 <div class="col-md-4">
@@ -216,9 +238,9 @@
                                 <div class="col-md-4">
                                   <div class="form-group">
                                     <label class="control-label">Rate (RM)</label>
-                                    <select class="form-control" readonly>
+                                    <select class="form-control">
                                               <option selected readonly disabled hidden>Please Select</option>
-                                              <option value="" selected>In a day</option>
+                                              <option value="">In a day</option>
                                               <option value="">In a month</option>
                                             </select>
                                   </div>

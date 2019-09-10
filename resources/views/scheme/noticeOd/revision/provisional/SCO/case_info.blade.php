@@ -10,27 +10,27 @@
                           <div class="col-md-4">
                             <div class="form-group">
                              <label class="control-label">Notice ID</label>
-                             <input type="text" name="notice_id" id="notice_id" class="form-control">
+                             <input type="text" name="notice_id" id="notice_id" class="form-control" readonly>
                             </div>
                           </div>
                             <div class="col-md-4">
                               <div class="form-group">
                                 <label class="control-label">Type of Revision</label>
-                                <input type="text" name="type_revision" id="type_revision" class="form-control">
+                                <input type="text" name="type_revision" id="type_revision" class="form-control" readonly>
                               </div>
                             </div>
                             <div class="col-md-4">
                               <div class="form-group">
                                 <label class="control-label">Start Date of Revision Payment</label>
-                                <input type="date" name="startdate" id="startdate" class="form-control">
+                                <input type="date" name="startdate" id="startdate" class="form-control" readonly>
                               </div>
                             </div>
                           </div>
                           <div class="form-actions">
-                              <button type="submit" class="btn btn-success"> @lang('scheme/caseinfo.save')</button>
+                            <button type="submit" class="btn btn waves-effect waves-light btn-success">@lang('scheme/noticetype.save')</button>
+                            <button type="button" class="btn btn waves-effect waves-light btn-success" onclick="submitform()">@lang('scheme/noticetype.reset')</button>
+                            <button type="button" class="btn waves-effect waves-light btn-success" id='btncancelacc' onclick="window.location='/noticetype'">@lang('scheme/noticetype.cancel')</button>
                           </div>
-                              {{-- <button type="button" class="btn btn-danger">@lang('insuredPerson.cancel')</button>
-                              <button type="button" class="btn btn-warning">@lang('insuredPerson.clear')</button> --}}
                         </form>
                   </div>
               </div>
